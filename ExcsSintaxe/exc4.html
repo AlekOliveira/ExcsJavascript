@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+
+
+        function experiencia(anosEstudo)
+        {   
+            if(anosEstudo > 0 && anosEstudo <= 1)
+                return "Iniciante";            
+            else if(anosEstudo > 1 && anosEstudo <= 3)
+                return "Intermediário";
+            else if(anosEstudo > 3 && anosEstudo < 7)
+                return "Avançado";
+            else if(anosEstudo >= 7)
+                return "Jedi Master";            
+        }
+
+        console.log(experiencia(10));
+
+    </script>
+</body>
+</html>

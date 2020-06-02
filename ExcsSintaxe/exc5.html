@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+
+        function exibe(usuarios)
+        {
+            for(let obj of usuarios)
+            {
+                console.log("O "+obj.nome+" possui as habilidades: " + obj.habilidades.join(', '));
+            }                
+        }
+
+        var usuarios = 
+        [
+            {nome: "Alek", habilidades: ["Javascript", "ReactJS", "Redux"]},
+            {nome: "Tonho", habilidades: ["VueJS", "Ruby on Rails", "Elixir"]}
+        ];
+
+       exibe(usuarios);
+
+        
+    </script>
+</body>
+</html>
